@@ -52,6 +52,11 @@ public static void main(String[] args) throws IOException {
 3
 ```
 
+Even comes complete with "type hints":
+
+![image](https://github.com/makslevental/graalvm_cpp_interop/assets/5657668/e63c4b85-73c5-4ab1-ab4f-9af260434de8)
+
+
 # TODO
 
 [Kotlin version](https://github.com/elide-dev/elide/blob/8716fd3c5c71f0d28d14581e47a6ec5b6a0a8423/packages/graalvm-py/src/main/kotlin/elide/runtime/plugins/python/Python.kt)
