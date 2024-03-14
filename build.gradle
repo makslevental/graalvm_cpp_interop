@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    id 'org.graalvm.buildtools.native' version '0.10.1'
+}
+
+group = 'org.leetcode'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    gradlePluginPortal()
+}
+
+dependencies {
+    implementation("org.graalvm.polyglot:polyglot:23.1.0")
+    implementation("org.graalvm.polyglot:llvm:23.1.0")
+}
